@@ -1,0 +1,10 @@
+.project
+.settings
+.buildpath
+/vendor/
+/public_html/wp
+/public_html/wp-config.php
+/public_html/wp-content/*
+!/public_html/wp-content/themes/
+/public_html/wp-content/themes/*
+!/public_html/wp-content/themes/wp-foundation
