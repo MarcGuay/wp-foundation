@@ -1,0 +1,44 @@
+{
+    "require": {
+        "php": ">=5.3.0",
+        "wordpress": "4.2.2",
+        "fancyguy/webroot-installer": "1.0.0",
+	"wpackagist-plugin/custom-post-type-ui": "*",
+	"wpackagist-plugin/advanced-custom-fields": "*",
+	"wpackagist-plugin/regenerate-thumbnails": "*",
+	"wpackagist-plugin/wp-migrate-db": "*",
+	"wpackagist-plugin/simple-custom-post-order": "*",
+	"wpackagist-plugin/wordpress-seo": "*",
+	"wpackagist-plugin/admin-slug-column": "*",
+	"wpackagist-plugin/w3-total-cache": "*"
+    },
+    "repositories": [
+	{
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        },
+	{
+      	    "type": "package",
+     	    "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.2.2",
+                "dist": {
+                  "type": "zip",
+                  "url": "https://github.com/WordPress/WordPress/archive/4.2.2.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+              }
+        }
+    ],
+    "extra":{
+        "webroot-dir": "public_html/wp",
+        "webroot-package": "wordpress",
+	"installer-paths": {
+            "public_html/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public_html/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "public_html/wp-content/themes/{$name}/": ["type:wordpress-theme"]	}
+    }
+}
