@@ -1,0 +1,9 @@
+Options -Indexes
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(www.)?wp-foundation.dev$
+RewriteCond %{REQUEST_URI} !^/wp/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /wp/$1
+RewriteRule ^(/)?$ wp/index.php [L]
