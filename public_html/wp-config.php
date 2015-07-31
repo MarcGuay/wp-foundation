@@ -36,7 +36,7 @@ define('DB_COLLATE', '');
 define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp');
 define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
-define('WP_CONTENT_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
 /**#@+
  * Authentication Unique Keys and Salts.
