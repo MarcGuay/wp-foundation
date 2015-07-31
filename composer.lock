@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "90bb0486a79dd8cbb83a27ddeda77f78",
+    "hash": "d353b9f82568b0f97ff82734f9e0167d",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,10 +145,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.2.2.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -279,15 +279,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.2.1",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.2.1"
+                "reference": "tags/2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -299,15 +299,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "0.7",
+            "version": "0.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/0.7"
+                "reference": "tags/0.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
