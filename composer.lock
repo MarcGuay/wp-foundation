@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b020d44bebd725b923d2caab2b809dc9",
+    "hash": "85213e8cdc5212e596853fa8ad3b2cf3",
     "packages": [
         {
             "name": "composer/installers",
@@ -158,16 +158,16 @@
             "type": "webroot"
         },
         {
-            "name": "wpackagist-plugin/admin-slug-column",
-            "version": "0.2.2",
+            "name": "wpackagist-plugin/hello-dolly",
+            "version": "1.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/admin-slug-column/",
-                "reference": "tags/0.2.2"
+                "url": "http://plugins.svn.wordpress.org/hello-dolly/",
+                "reference": "tags/1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/admin-slug-column.0.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -175,19 +175,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/admin-slug-column/"
+            "homepage": "https://wordpress.org/plugins/hello-dolly/"
         },
         {
-            "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.2",
+            "name": "wpackagist-plugin/mu-global-terms",
+            "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "url": "http://plugins.svn.wordpress.org/mu-global-terms/",
+                "reference": "tags/1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "https://downloads.wordpress.org/plugin/mu-global-terms.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -195,147 +195,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.1.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
-        },
-        {
-            "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.4.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.4.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
-        },
-        {
-            "name": "wpackagist-plugin/regenerate-thumbnails",
-            "version": "2.2.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails/",
-                "reference": "tags/2.2.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
-        },
-        {
-            "name": "wpackagist-plugin/simple-custom-post-order",
-            "version": "2.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/simple-custom-post-order/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/simple-custom-post-order/"
-        },
-        {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.4.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.3.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-migrate-db",
-            "version": "0.7.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-migrate-db/",
-                "reference": "tags/0.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.7.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
+            "homepage": "https://wordpress.org/plugins/mu-global-terms/"
         }
     ],
     "packages-dev": [],
