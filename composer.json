@@ -10,6 +10,7 @@
 	"wpackagist-plugin/simple-custom-post-order": "*",
 	"wpackagist-plugin/wordpress-seo": "*",
 	"wpackagist-plugin/admin-slug-column": "*",
+	"wpackagist-plugin/google-analytics-for-wordpress": "*",
 	"wpackagist-plugin/w3-total-cache": "*"
     },
     "repositories": [
