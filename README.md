@@ -7,8 +7,11 @@ Starting point for a Wordpress project that uses Zurb Foundation
 - Run `npm install` in the theme directory
 - Run `bower install` in theme directory
 - Run `grunt build` in theme directory
+- Create an empty DB schema.
 - Modify database credentials in `wp-config.php` file.
 - Generate and add keys to `wp-config.php` file.
+- Login and install Wordpress.
+- Switch to your theme.
 
 ##Features
 - Composer management of Wordpress core, plugins, and themes
