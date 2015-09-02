@@ -3,6 +3,7 @@ Starting point for a Wordpress project that uses Zurb Foundation
 
 ##Install
 - Run `composer update` in root directory
+- Rename the theme directory from `wp-foundation` to whatever you like and edit the `style.css` file header.
 - Run `npm install` in the theme directory
 - Run `bower install` in theme directory
 - Run `grunt build` in theme directory
