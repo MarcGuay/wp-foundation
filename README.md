@@ -2,7 +2,7 @@
 Starting point for a Wordpress project that uses Zurb Foundation
 
 ##Install
-- Run `composer install` in root directory
+- Run `composer update` in root directory
 - Run `npm install` in the theme directory
 - Run `bower install` in theme directory
 - Run `grunt build` in theme directory
